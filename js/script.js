@@ -20,7 +20,7 @@ document.body.addEventListener("mousemove", (evt) => {
   const items = document.querySelectorAll(".item");
   const cursorshape = document.querySelector('.shape');
   
-  console.log(items);
+  // console.log(items);
 
   items.forEach(item => {
     RollItOver(item, 'white');
